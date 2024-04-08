@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif ,18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 30;
+    width: 100%;
+    background-color: #94b041;
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 70px;
+    text-decoration: none;
+  }
+  
+  .navbar a.active,
+  .navbar a:hover {
+    background-color: #3771a7;
+  }
+  
+  .content {
+    margin-top: 60px; /* Adjust according to your navbar height */
+    padding: 20px;
+    height: 2000px; /* Just for demonstration */
+  }
+  
